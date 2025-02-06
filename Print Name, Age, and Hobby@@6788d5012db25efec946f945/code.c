@@ -3,9 +3,9 @@ int main()
 {
     char name,age,hobby;
     scanf("%c %c %c",&name, &age, &hobby);
-    printf("Name: \n%c",name);
-    printf("Age: \n%c",name);
-    printf("Hobby: %c",name);
+    printf("Name: %c",name);
+    printf("/nAge: %c",name);
+    printf("/nHobby: %c",name);
     return 0;
 
 }
