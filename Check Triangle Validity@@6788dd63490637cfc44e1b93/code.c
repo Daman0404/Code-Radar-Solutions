@@ -3,16 +3,7 @@ int main()
 {
     int a,b,c;
     scanf("%d %d %d", &a,&b,&c);
-    if(a+b>c){
-        printf("Valid");
-    }
-    else if(a+c>b){
-        printf("Valid");
-    }
-    else if(b+c>a){
-        printf("Valid");
-    }
-     else if(b+a>c){
+    if(a+b>c && b+c>a && c+a>b){
         printf("Valid");
     }
     else{
