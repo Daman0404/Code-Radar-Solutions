@@ -7,7 +7,7 @@ int main()
         printf("&d",a);
     }
     else{
-        printf("%d",b);
+        printf(b);
     }
     return 0;
 }
