@@ -12,8 +12,5 @@ int main()
     else if(c>=a && c>=b){
         printf("%d",c);
     }
-    else{
-        printf("%d %d %d",a,b,c);
-    }
     return 0;
 }
