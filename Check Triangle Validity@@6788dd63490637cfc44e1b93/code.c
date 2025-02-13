@@ -9,7 +9,7 @@ int main()
     else if(a+c>b){
         printf("Valid");
     }
-     else if(b+c>a){
+    else if(b+c>a){
         printf("Valid");
     }
     else{
