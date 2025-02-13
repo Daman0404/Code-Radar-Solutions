@@ -9,7 +9,7 @@ int main{
     else if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
     printf("Constant");
     }
-    else if(isdigit(c)){
+    else if(isdigit(ch)){
         printf("Digit");
     }
     else{
