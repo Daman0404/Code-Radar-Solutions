@@ -25,6 +25,8 @@ int main()
     case 7:
     printf("Sunday");
     break;
+    defaut:
+    printf("Invalid")
     }
     return 0;
 }
