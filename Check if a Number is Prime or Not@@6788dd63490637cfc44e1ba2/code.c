@@ -6,7 +6,7 @@ int main()
     if(a<=2){
         printf("Not Prime");
     }
-    else if(a==0 || a==0 || a==0 || a==0){
+    else if(a==2 || a==3 || a==4 || a==5){
         printf("Prime");
     }
     else if(a%2==0 || a%3==0 || a%4==0 || a%5==0){
